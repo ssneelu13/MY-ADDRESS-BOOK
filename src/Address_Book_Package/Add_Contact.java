@@ -74,6 +74,28 @@ public class Add_Contact {
         }
     }
 
+
+
+    //method for deleting the data using remove function
+    void deleteContact() {
+        boolean is_person_found=false;
+        int index_of_person=0;
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter first name for deleting an existing contact:");
+        String first_name1 = scan.next();
+        for(int i=0; i<list.size(); i++) {
+            if(list.get(i).getfirst_name().equals(first_name1)) {
+                is_person_found=true;
+                index_of_person=i;
+                break;
+            }
+        }
+
+        if(is_person_found ) {
+            list.removeIf(list->list.getfirst_name().equals(first_name1));
+        }
+    }
+
         }
 
 

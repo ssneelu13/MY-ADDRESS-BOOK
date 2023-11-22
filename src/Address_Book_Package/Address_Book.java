@@ -13,6 +13,8 @@ public class Address_Book {
         add.displayData();
         add.editContact();
         add.displayData();
+        add.deleteContact();
+        add.displayData();
 
     }
 

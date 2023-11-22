@@ -5,12 +5,15 @@ import java.util.ArrayList;
 
 public class Address_Book {
     public static void main(String[] args) {
-
-        //greeting to the program
-        System.out.println("Welcome to adrress book program");
+        System.out.println("Hii and Welcome to MY ADDRESS BOOK !!!");
         Add_Contact add = new Add_Contact();
-        add.add_Contact();
-        add.display_Data();
+        add.addContact();
+        add.addContact();
+        add.addContact();
+        add.displayData();
+        add.editContact();
+        add.displayData();
+
     }
 
 

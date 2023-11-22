@@ -1,5 +1,5 @@
 package Address_Book_Package;
-
+//usecase1: defining all the properties of a class
 public class Contact_Details {
         //declare variables
         private String first_name;

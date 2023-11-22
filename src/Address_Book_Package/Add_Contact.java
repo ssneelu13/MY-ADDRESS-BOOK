@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Add_Contact {
 
     ArrayList<Contact_Details> list = new ArrayList<>();
-    //method for adding contacts using add function
+    //usecase2: method for adding contacts using add function
     void addContact() {
         Contact_Details contact = new Contact_Details();
         Scanner scan = new Scanner(System.in);
@@ -37,7 +37,7 @@ public class Add_Contact {
     }
 
 
-    //method for editing the existing contact
+    //usecase3: method for editing the existing contact
     void editContact() {
         boolean is_person_found=false;
         int index_of_person=0;
@@ -76,7 +76,7 @@ public class Add_Contact {
 
 
 
-    //method for deleting the data using remove function
+    //usecase4: method for deleting the data using remove function
     void deleteContact() {
         boolean is_person_found=false;
         int index_of_person=0;

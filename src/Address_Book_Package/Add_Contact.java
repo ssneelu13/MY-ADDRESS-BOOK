@@ -5,6 +5,8 @@ public class Add_Contact {
 
     ArrayList<Contact_Details> list = new ArrayList<>();
     //usecase2: method for adding contacts using add function
+
+
     void addContact() {
         Contact_Details contact = new Contact_Details();
         Scanner scan = new Scanner(System.in);
